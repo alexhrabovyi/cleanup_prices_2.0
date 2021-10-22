@@ -1,0 +1,303 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "FuturaFuturisC";
+  src: url("../fonts/FuturaFuturisC.eot"), url("../fonts/FuturaFuturisC.ttf"), url("../fonts/FuturaFuturisC.woff"), url("../fonts/FuturaFuturisC.woff2");
+}
+@font-face {
+  font-family: "FuturaFuturisLightC";
+  src: url("../fonts/FuturaFuturisLightC.eot"), url("../fonts/FuturaFuturisLightC.ttf"), url("../fonts/FuturaFuturisLightC.woff"), url("../fonts/FuturaFuturisLightC.woff2");
+}
+@font-face {
+  font-family: "FuturaFuturisBold";
+  src: url("../fonts/FuturaFuturisC-Bold.eot"), url("../fonts/FuturaFuturisC-Bold.ttf"), url("../fonts/FuturaFuturisC-Bold.woff"), url("../fonts/FuturaFuturisC-Bold.woff2");
+}
+.prices-article {
+  padding: 100px 10%;
+}
+@media (max-width: 768px) {
+  .prices-article {
+    padding: 100px 5%;
+  }
+}
+.prices-article__arrow-down {
+  right: 50px;
+}
+@media (max-width: 768px) {
+  .prices-article__arrow-down {
+    right: 12px;
+  }
+}
+.prices-article__table {
+  width: 1000px;
+  border-spacing: 0;
+  font-weight: 400;
+  font-family: "FuturaFuturisLightC";
+}
+@media (max-width: 1360px) {
+  .prices-article__table {
+    width: 100%;
+  }
+}
+.prices-article__main-row {
+  color: black;
+  background: #d9edf7;
+  font-weight: 700;
+}
+.prices-article__th {
+  padding: 8px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.prices-article__th_cleaning-price {
+  width: 180px;
+}
+@media (max-width: 1360px) {
+  .prices-article__th_cleaning-price {
+    width: 15%;
+  }
+}
+@media (max-width: 1024px) {
+  .prices-article__th_cleaning-price {
+    width: 12%;
+  }
+}
+@media (max-width: 768px) {
+  .prices-article__th_cleaning-price {
+    width: 10%;
+  }
+}
+@media (max-width: 576px) {
+  .prices-article__th_cleaning-price {
+    width: 8%;
+  }
+}
+.prices-article__th_organic-cleaning-price {
+  width: 250px;
+}
+@media (max-width: 1360px) {
+  .prices-article__th_organic-cleaning-price {
+    width: 20%;
+  }
+}
+@media (max-width: 1024px) {
+  .prices-article__th_organic-cleaning-price {
+    width: 17%;
+  }
+}
+@media (max-width: 768px) {
+  .prices-article__th_organic-cleaning-price {
+    width: 15%;
+  }
+}
+@media (max-width: 576px) {
+  .prices-article__th_organic-cleaning-price {
+    width: 12%;
+  }
+}
+.prices-article__row {
+  font-size: 18px;
+  background: white;
+}
+.prices-article__row_grey {
+  background: #f9f9f9;
+}
+.prices-article__td {
+  padding: 15px 8px;
+  border-top: 1px solid #dddddd;
+}
+.prices-article__td_service-name {
+  padding-right: 20px;
+}
+.prices-article__additional-info {
+  width: 700px;
+  background: #67badb;
+  font-family: "FuturaFuturisC";
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+@media (max-width: 1024px) {
+  .prices-article__additional-info {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .prices-article__additional-info {
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 576px) {
+  .prices-article__additional-info {
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
+.prices-article__additional-info__text-left {
+  width: 490px;
+}
+@media (max-width: 1024px) {
+  .prices-article__additional-info__text-left {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .prices-article__additional-info__text-left {
+    width: 75%;
+  }
+}
+@media (max-width: 768px) {
+  .prices-article__additional-info__text-right {
+    width: 20%;
+  }
+}
+@media (max-width: 576px) {
+  .prices-article__additional-info__text-right {
+    text-align: center;
+  }
+}
+.prices-article__additional-info__list {
+  padding-left: 20px;
+}
+
+.dropdown-button {
+  background: #0084b8;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 80px 20px 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.dropdown-button:hover {
+  background: #0073a0;
+}
+@media (max-width: 1360px) {
+  .dropdown-button {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .dropdown-button {
+    padding-right: 35px;
+    min-height: 80px;
+  }
+}
+.dropdown-button_medium {
+  margin-top: 10px;
+  padding: 15px 80px 15px 20px;
+  background: #00a7e9;
+}
+.dropdown-button_medium:hover {
+  background: #009ad6;
+}
+@media (max-width: 768px) {
+  .dropdown-button_medium {
+    min-height: 70px;
+  }
+}
+.dropdown-button_small {
+  margin-top: 5px;
+  padding: 10px 80px 10px 20px;
+  background: #6cbc45;
+  border-radius: 10px 10px 0 0;
+}
+.dropdown-button_small:hover {
+  background: #5ea13d;
+}
+@media (max-width: 768px) {
+  .dropdown-button_small {
+    min-height: 60px;
+    border-radius: 10px;
+  }
+}
+
+.dropdown-content {
+  width: 1000px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 1360px) {
+  .dropdown-content {
+    width: 100%;
+  }
+}
+
+.arrow-down {
+  width: 15px;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.text-title {
+  font-family: "FuturaFuturisC";
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.dropdown-button_main_active {
+  background: #0073a0;
+}
+
+.dropdown-button_medium_active {
+  background: #009ad6;
+}
+
+.dropdown-button_small_active {
+  background: #5ea13d;
+}
+
+.arrow-down_active {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+/*# sourceMappingURL=style.css.map */
