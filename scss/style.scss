@@ -131,10 +131,6 @@
     &__row {
         font-size: 18px;
         background: rgb(255, 255, 255);
-
-        &_grey {
-            background: rgb(249, 249, 249);
-        }
     }
 
     &__td {
@@ -303,4 +299,8 @@
 
 .arrow-down_active {
     transform: rotateX(180deg);
+}
+
+.prices-article__row:nth-child(2n+1) {
+    background: rgb(249, 249, 249);
 }

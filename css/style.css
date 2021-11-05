@@ -104,9 +104,6 @@
   font-size: 18px;
   background: white;
 }
-.prices-article__row_grey {
-  background: #f9f9f9;
-}
 .prices-article__td {
   padding: 15px 8px;
   border-top: 1px solid #dddddd;
@@ -299,5 +296,9 @@
 .arrow-down_active {
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
+}
+
+.prices-article__row:nth-child(2n+1) {
+  background: #f9f9f9;
 }
 /*# sourceMappingURL=style.css.map */
